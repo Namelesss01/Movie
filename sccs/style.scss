@@ -1,0 +1,25 @@
+//сторонние библиотеки
+@import "./vendors/reset";
+
+//scss переменные
+@import "./variables";
+
+//повторные куски кодаааааа
+@import "./components/header";
+
+//секция сайта
+@import "./sections/main-hero";
+
+//секция сайта там где лучшие фильмы
+@import "./sections/bestfilm";
+
+.container {
+  max-width: 1800px;
+  margin: auto 0;
+  padding: 0 60px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: $bg-black;
+}
